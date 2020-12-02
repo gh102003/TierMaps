@@ -1,0 +1,52 @@
+:root {
+  --font: Cabin, Helvetica, Arial, sans-serif
+}
+
+body {
+  background: #ECEFF1;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: var(--font);
+  margin: calc(0.5em + 2vw);
+  padding: 0;
+}
+
+#map {
+  width: 70vw;
+  height: 70vh;
+  margin: 0 auto;
+  font-family: var(--font);
+
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 0.8em;
+  color: #555;
+  font-size: 1.2em;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.leaflet-popup p {
+  margin: 0.5em 0;
+}
+
+.leaflet-container a.leaflet-popup-close-button {
+  padding: 0.7em 0.7em 0 0;
+  font-size: 1.5em;
+}
+
+.popup-ltla-name {
+  margin-bottom: 0.5em;
+}
+
+.popup-statistic {
+  font-size: 2.5em;
+  font-weight: 700;
+  display: block;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  #map {
+    width: 90vw;
+  }
+}

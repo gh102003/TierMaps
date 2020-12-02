@@ -1,0 +1,14 @@
+{
+  "name": "tier-maps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "watchify public/main.js -o public/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@publichealthengland/uk-covid19": "^1.2.5"
+  }
+}
